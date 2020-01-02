@@ -16,7 +16,7 @@ def Anagram(str1, str2):
   
   for c in str1:
     letters[ord(c)] = letters[ord(c)]+1
-  print(letters)
+  #print(letters)
   for c in str2:
     letters[ord(c)] = letters[ord(c)]-1
   
