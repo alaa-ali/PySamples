@@ -23,7 +23,7 @@ def searchRange(vec, target):
         return [first, last]
     return [-1, -1]
 
-# driver code
+# driver code//
 print(searchRange( [5,7,7,8,8,10], 8))
 print(searchRange( [5,7,7,8,8,10], 6))
 print(searchRange( [1, 1], 1))
