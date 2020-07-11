@@ -7,7 +7,8 @@ def find_first_pos(vec, target):
     low = 0
     high = n-1
     while (low <= high):
-        mid = int(low + (high - low) /2)
+        #mid = int(low + (high - low) /2)
+        mid = low + (high - low) //2
         if(vec[mid]>= target):
             first_pos = mid
             high = mid - 1
